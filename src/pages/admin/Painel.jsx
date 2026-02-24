@@ -1,7 +1,9 @@
+import UltimasColetas from "../../components/UltimasColetas";
+
 const Painel = () => {
     return ( 
         <div>
-            Painel
+            <UltimasColetas/>
         </div>
      );
 }

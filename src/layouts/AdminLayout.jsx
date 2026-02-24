@@ -4,14 +4,14 @@ import Menu from "../components/Menu";
 
 const AdminLayout = () => {
     return ( 
-        <div>
+        <div className="bg-areia h-dvh flex flex-col">
          <Header/>
-         <div>
+         <div className="grow p-4">
             <Outlet/>
          </div>
          <Menu/>    
         </div>
      );
 }
- 
+
 export default AdminLayout;

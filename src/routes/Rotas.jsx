@@ -5,6 +5,8 @@ import Painel from "../pages/admin/Painel";
 import Usuarios from "../pages/admin/Usuarios";
 import AdminLayout from "../layouts/AdminLayout";
 import Concorrentes from "../pages/admin/Concorrentes";
+import Missoes from "../pages/admin/Missoes";
+
 
 const Rotas = () => {
     return ( 
@@ -16,6 +18,7 @@ const Rotas = () => {
                 <Route index element = {<Painel/>}/>
                 <Route path = "/admin/usuarios" element = {<Usuarios/>}/>
                 <Route path = "/admin/concorrentes" element = {<Concorrentes/>}/>
+                <Route path = "/admin/missoes" element = {<Missoes/>}/>
             </Route>
             
         </Routes>
